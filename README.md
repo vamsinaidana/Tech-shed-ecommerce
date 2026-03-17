@@ -1,2 +1,1 @@
-# Focus40-Academy
-Institute website
+Tech-shed website
