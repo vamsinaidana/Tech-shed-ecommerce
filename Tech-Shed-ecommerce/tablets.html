@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShed-Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5mMXIpg6Y6MI-sPxoMEbEyAHpJsrxL48mw&s">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+     
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <!-- Brand/Logo -->
+        <a class="navbar-brand font-weight-bold" href="#">TechShed</a>
+
+        <!-- Search Bar -->
+        <form class="d-flex ml-3">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" style="max-width: 400px;">
+            <button class="btn btn-primary" type="submit" id="search-bar-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+
+        <!-- Navbar toggler button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links, login, and cart icons -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <!-- Navigation links -->
+                <li class="nav-item"><a class='nav-link' href='/'>Home</a></li>
+                <li class="nav-item"><a class='nav-link' href='/computers'>Computers</a></li>
+                <li class="nav-item"><a class='nav-link' href='/tablets'>Tablets</a></li>
+                <li class="nav-item"><a class='nav-link' href='/drones&camera'>Drones & Cameras</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Audio</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class='dropdown-item' href='/headphones'>Headphones</a>
+                        <a class='dropdown-item' href='/speakers'>Speakers</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class='nav-link' href='/mobiles'>Mobiles</a></li>
+                <li class="nav-item"><a class='nav-link' href='/tv&cinema'>TV & Home Cinema</a></li>
+                <li class="nav-item"><a class='nav-link' href='/wearable'>Wearable Tech</a></li>
+                <!-- Login and Cart icons -->
+                <li class="nav-item d-flex align-items-center ml-3">
+                    <a class="nav-link" href="login.html"><img src="https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg" alt="Login" class="img-fluid" style="height: 30px;"></a>
+                </li>
+                <li class="nav-item d-flex align-items-center ml-3">
+                    <a class="nav-link" href="cart.html">
+                        <div class="li" style="margin-left: 20px;"><span class="material-symbols-outlined" id="nav-li"  style="vertical-align: text-top;">
+                            add_shopping_cart
+                            </span><sup style="font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="span-count">0</sup></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<!-- header -->
+<!-- section -1 start -->
+
+
+
+
+<div class="section1">
+   
+    <div class="section1-item" id="section1-item">
+        <h1 class="sec-1-h1">Tablets</h1>
+        <span style="display: block;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-top: 50px;padding-left: 62px;">4 Products</span>
+
+        <div class="inner-sec">
+
+            <div class="inner-sec-item">
+                <div class="inner-sec-item-img" >
+                    <img class="inner-sec-item-imgs" src="https://static.wixstatic.com/media/c22c23_01a8a61a9f6c4e3a97711b8c684050e9~mv2.png/v1/fill/w_374,h_374,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_01a8a61a9f6c4e3a97711b8c684050e9~mv2.png" alt="">
+                </div>
+                <p class="inner-sec-item-p">
+                    Pilates 14" Touch Screen Laptop 12GB Memory
+                </p>
+                <span class="inner-sec-item-span">$85000</span>
+                <div class="ul">
+                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                        star
+                        </span></div>
+                        <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                            star
+                            </span></div>
+                            <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                star
+                                </span></div>
+                                <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                    star
+                                    </span></div>
+                                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                        star
+                                        </span></div>
+                                        
+                                            <div class="ul-li">
+                                                <span style="font-size: 17px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 10px;">
+                                                    5.0(1)
+                                                </span> </div>
+                                        </div>
+            </div>
+
+            <div class="inner-sec-item">
+                <div class="inner-sec-item-img">
+                    <img class="inner-sec-item-imgs" src="https://static.wixstatic.com/media/c22c23_3e48ef6f13594f4198e6dbfca755b68f~mv2.jpg/v1/fill/w_374,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c22c23_3e48ef6f13594f4198e6dbfca755b68f~mv2.jpg" alt="">
+
+                </div>
+                <p class="inner-sec-item-p">
+                    Corr Desktop 12GB Memory, WiFi, Bluetooth, Keyboard, Mouse
+                </p>
+                <span class="inner-sec-item-span">$85000</span>
+                <div class="ul">
+                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                        star
+                        </span></div>
+                        <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                            star
+                            </span></div>
+                            <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                star
+                                </span></div>
+                                <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                    star
+                                    </span></div>
+                                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                        star
+                                        </span></div>
+                                        
+                                            <div class="ul-li">
+                                                <span style="font-size: 17px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 10px;">
+                                                    5.0(1)
+                                                </span> </div>
+                                        </div>
+
+            </div>
+
+            <div class="inner-sec-item">
+                <div class="inner-sec-item-img">
+                    <img class="inner-sec-item-imgs" src="https://static.wixstatic.com/media/c22c23_6dcb5abdf4904e1a9ca4a5d3234ead49~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_6dcb5abdf4904e1a9ca4a5d3234ead49~mv2.jpg" alt="">
+
+                </div>
+                <p class="inner-sec-item-p">
+                    MSP 14" Laptop 16GB Memory, Carbon Gray
+                </p>
+                <span class="inner-sec-item-span">$85000</span>
+                <div class="ul">
+                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                        star
+                        </span></div>
+                        <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                            star
+                            </span></div>
+                            <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                star
+                                </span></div>
+                                <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                    star
+                                    </span></div>
+                                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                        star
+                                        </span></div>
+                                        
+                                            <div class="ul-li">
+                                                <span style="font-size: 17px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 10px;">
+                                                    5.0(1)
+                                                </span> </div>
+                                        </div>
+            </div>
+            <div class="inner-sec-item">
+                <div class="inner-sec-item-img">
+                    <img class="inner-sec-item-imgs" src="https://static.wixstatic.com/media/c22c23_88af147a4da742eb86528c8d8e5594fd~mv2.jpg/v1/fill/w_625,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_88af147a4da742eb86528c8d8e5594fd~mv2.jpg" alt="">
+
+                </div>
+                <p class="inner-sec-item-p">
+                   
+                    
+
+                    Corr Desktop 24GB Memory + 29" Screen Keyboard & Mouse
+                </p>
+                <span class="inner-sec-item-span">$85000</span>
+                <div class="ul">
+                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                        star
+                        </span></div>
+                        <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                            star
+                            </span></div>
+                            <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                star
+                                </span></div>
+                                <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                    star
+                                    </span></div>
+                                    <div class="ul-li"><span class="material-symbols-outlined" id="star">
+                                        star
+                                        </span></div>
+                                        
+                                            <div class="ul-li">
+                                                <span style="font-size: 17px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 10px;">
+                                                    5.0(1)
+                                                </span> </div>
+                                        </div>
+            </div>
+
+        </div>
+
+
+       
+
+
+    </div>
+</div>
+
+<!-- section 1 end -->
+
+
+
+ 
+
+    <!-- Footer section end -->
+</body>
+</html>
